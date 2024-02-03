@@ -6,7 +6,7 @@ function Menu() {
     <nav className='bg-transparent p-4 font-sans'>
         <div className='flex items-center justify-between'>
             
-            <div className='text-white text-2xl font-bold text-black font-sans ml-2'>Ahka Siri</div>
+            <div className='text-2xl font-bold text-black font-sans ml-2'>Ahka Siri</div>
                 {/* Togglo */}
                 <div className='md:hidden'>
                     <button id='menu-toggle' className='text-white'>
