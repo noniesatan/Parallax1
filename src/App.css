@@ -1,0 +1,158 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+#textblock {
+  background-color: #210002;
+  height: 100vh;
+}
+
+#textblock-container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+#textblock-title {
+  color: #ffaf1b;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Helvetica Neue";
+}
+
+#textblock-content {
+  color: #ffaf1b;
+  font-size: 20px;
+}
+
+#textblock-footer {
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 400;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  margin-bottom: 20px;
+
+}
+
+#textblock-devsense {
+  text-decoration: none;
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.animation, .animation_layer {
+	height: 1000px;
+}
+
+.animation {
+  display: block;
+	position: relative;
+	z-index: 10;
+  text-decoration: underline;
+}
+
+.animation_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.animation_layer.parallax {
+	position: fixed;
+  text-decoration: underline;
+}
+
+#artback {
+  background-image: url(./images/background.png);
+  text-decoration: underline;
+  
+}
+
+#mountain {
+  background-image: url(./images/mountains.png);
+  text-decoration: underline;
+}
+
+#logoland {
+  background-image: url(./images/logononame.png);
+  text-decoration: underline;
+}
+
+#jungle1 {
+  background-image: url(./images/jungle1.png);
+  text-decoration: underline;
+}
+
+#jungle2 {
+  background-image: url(./images/jungle2.png);
+  text-decoration: underline;
+}
+
+#jungle3 {
+  background-image: url(./images/jungle3.png);
+}
+
+#jungle4 {
+  background-image: url(./images/jungle4.png);
+}
+
+#jungle5 {
+  background-image: url(./images/jungle5.png);
+}
+
+#manonmountain {
+  background-image: url(./images/man_on_mountain.png);
+}
+
+
+li{
+  text-decoration: none;
+}
+li a{
+  cursor: pointer;
+}

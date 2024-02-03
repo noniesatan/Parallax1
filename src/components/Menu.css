@@ -1,0 +1,15 @@
+#linav{
+    text-decoration: none;
+    cursor:pointer;
+    
+    
+}
+#linav:hover{
+    color: grey;
+}
+.li a{
+    color: aquamarine;
+}
+#linav a{
+    cursor:pointer
+}
